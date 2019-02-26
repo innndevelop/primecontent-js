@@ -1,0 +1,39 @@
+{
+  "name": "primecontent",
+  "description": "Primecontent ES6 Library",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --env dev && webpack --env build",
+    "test": "mocha --require @babel/register --colors --no-timeouts --no-warnings ./test/*.spec.js",
+    "test:watch": "mocha --require @babel/register --colors -w ./test/*.spec.js"
+  },
+  "author": "INNN",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^8.0.0-beta",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "event-emitter-es6": "^1.1.5",
+    "jsdom": "11.11.0",
+    "jsdom-global": "3.0.2",
+    "jwt-decode": "^2.2.0",
+    "mocha": "^4.0.1",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8",
+    "yargs": "^10.0.3"
+  },
+  "dependencies": {}
+}
