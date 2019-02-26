@@ -1,6 +1,7 @@
 {
   "name": "primecontent",
   "description": "Primecontent ES6 Library",
+  "version": "1.0",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build",
